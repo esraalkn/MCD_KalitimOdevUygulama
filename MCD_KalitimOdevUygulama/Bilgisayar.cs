@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MCD_KalitimOdevUygulama
+{
+    public sealed class Bilgisayar:Urun//sealed kullanılırsa bu sınıfa kalıtım yapılamaz.
+    {
+        public string islemci { get; set; }
+        public string ram { get; set; }
+        public string ekranKarti { get; set; }
+    }
+}
